@@ -1,12 +1,18 @@
-
-
-.flex{
-  font-size: 20px;
-  text-align: center;
-  border: solid 3px black;
+.Parent{
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-around;
-  max-width: 30%;
-  max-height: 10%;
+}
+
+.Child{
+  border: solid 3px black;
+  width: 400px;
+  height: 500px;
+}
+
+.IMG{
+  max-width: 100%;
+  max-height: 100%;
+  
 }
