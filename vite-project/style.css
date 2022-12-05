@@ -25,3 +25,14 @@ html, body, *{
 .MenuPage{
   text-align: center;
 }
+
+#AppetizerBTN, #MainMenuBTN, #DrinksBTN{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+MenuPage{
+  background-color: lightblue;
+  padding-bottom: 100rem;
+}
+

@@ -1,15 +1,15 @@
 const menu = [
   {
-    Name: "food",
-    Calories: "idk",
-    Image:
-      "https://th.bing.com/th/id/R.c75de75b64245522b8261e73c6b3d5cb?rik=%2foQhF6Ew84NyhQ&riu=http%3a%2f%2fwww.clydefitchreport.com%2fwp-content%2fuploads%2f2012%2f08%2fchick-fil-a_meal1.jpg&ehk=D%2f%2b1OTWFrnF0hZYi6PXamS6g2WqLFqpsCh%2fkHJElb8c%3d&risl=&pid=ImgRaw&r=0",
+    Name: "Bubble Tea",
+    Type: "Drink",
+    Price: "6.25",
+    IMG: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.anediblemosaic.com%2Fhow-to-make-bubble-tea-easy-boba-tea-recipe%2F&psig=AOvVaw3Mfua4Jf53wqmx1I9GxCyl&ust=1670352415657000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCOD14NKR4_sCFQAAAAAdAAAAABAI",
   },
   {
-    Name: "food2",
-    Calories: "idkagain",
-    Image:
-      "https://external-preview.redd.it/P-BXoNiHUzwokF3B5w_WiRm5bMgiHpXtQ90-ySZmayI.jpg?auto=webp&s=51012b40212b2824e0e4e16fdb2f39a75707d360",
+    Name: "Lemonade",
+    Type: "Drink",
+    Price: "4.0",
+    IMG: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.errenskitchen.com%2Frefreshing-lemonade%2F&psig=AOvVaw0TD_IWTgfTMN5iGur_UP_9&ust=1670352761037000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKjw0PyS4_sCFQAAAAAdAAAAABAN",
   },
 ];
 
