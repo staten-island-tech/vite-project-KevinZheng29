@@ -17,7 +17,7 @@ html, body, *{
 .ButtonPage{
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: lightgray;
+  background-image: url(https://th.bing.com/th/id/R.f950f8c49a2be4b9002aa0b76e13dc42?rik=5I13qf6fx71cug&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fNP7w5kc.jpg&ehk=7flZMnQlQz4T3H5L1XKLAnsb3o%2fDOcMQ7m7Kc%2fBCrT0%3d&risl=&pid=ImgRaw&r=0);
   font-size: 4rem;
   display: flex;
   justify-content: space-around;
@@ -31,8 +31,7 @@ html, body, *{
   padding-right: 3rem;
 }
 
-MenuPage{
-  background-color: lightblue;
-  padding-bottom: 100rem;
+.MenuPage{
+  
 }
 
