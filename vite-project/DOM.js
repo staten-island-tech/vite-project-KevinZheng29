@@ -1,7 +1,7 @@
 const DOM = {
   sidedishbtn: document.getElementById("SideDishBTN"),
   mainmenubtn: document.getElementById("MainMenuBTN"),
-  drinksbtn: document.getElementById("DrinksBTN"),
+  othersbtn: document.getElementById("DrinksAndDessertsBTN"),
   MenuPage: document.getElementById("MenuPage"),
 };
 
