@@ -26,7 +26,7 @@ html, body, *{
   text-align: center;
 }
 
-#AppetizerBTN, #MainMenuBTN, #DrinksBTN{
+#JPBTN, #KRMenuBTN, #DrinksAndDessertsBTN{
   padding-left: 3rem;
   padding-right: 3rem;
 }

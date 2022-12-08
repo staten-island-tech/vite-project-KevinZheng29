@@ -1,6 +1,6 @@
 const DOM = {
-  sidedishbtn: document.getElementById("SideDishBTN"),
-  mainmenubtn: document.getElementById("MainMenuBTN"),
+  jpbtn: document.getElementById("JPBTN"),
+  krbtn: document.getElementById("KRBTN"),
   othersbtn: document.getElementById("DrinksAndDessertsBTN"),
   MenuPage: document.getElementById("MenuPage"),
 };
