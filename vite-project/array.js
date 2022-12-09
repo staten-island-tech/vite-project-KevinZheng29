@@ -123,6 +123,13 @@ const menu = [
     IMG: "https://mynordicrecipes.com/wp-content/uploads/2021/10/korean-corn-dog-500x500.jpg",
   },
   {
+    Name: "Sundubu-jjigae",
+    Nationality: "Korean",
+    Type: "Food",
+    Price: 5.5,
+    IMG: "https://sajiankuliner.com/wp-content/uploads/2020/03/Resep-Sundubu-Jjigae.jpg",
+  },
+  {
     Name: "Yakitori",
     Nationality: "Japanese",
     Type: "Food",
@@ -130,7 +137,44 @@ const menu = [
     IMG: "https://th.bing.com/th/id/R.2d25b4a846350d9f7ea7efe9c74f0d77?rik=dBpvzw9VBIJLCQ&riu=http%3a%2f%2fcookeryshow.com%2fwp-content%2fuploads%2f2018%2f05%2fyakitori-recipe-japanese-cooking.jpg&ehk=n1p9pUw95WTsYQyUTAtrRSmn%2bzMogsC9Z1pe%2bf0qUNI%3d&risl=&pid=ImgRaw&r=0",
   },
   {
-    Name: "",
+    Name: "Onigiri",
+    Nationality: "Japanese",
+    Type: "Food",
+    Price: 1.25,
+    IMG: "https://www.zojirushi.com/user/images/recipe/309.1.jpg",
+  },
+  {
+    Name: "Crepe",
+    Nationality: "Japanese",
+    Type: "Other",
+    Price: 2.75,
+    IMG: "https://th.bing.com/th/id/R.8d5a890a89957ff8a4cc20f47694596c?rik=MMiim%2bdJ32ucSw&riu=http%3a%2f%2fwww.geishablog.com%2fwp-content%2fuploads%2f2013%2f10%2fjapanese-crepes.jpg&ehk=aCeqx6v9wmv3sLmgUHDO8DIRtEFZs5BvVqmlpdGGvz4%3d&risl=&pid=ImgRaw&r=0",
+  },
+  {
+    Name: "Bibimbap",
+    Nationality: "Korean",
+    Type: "Food",
+    Price: 10.75,
+    IMG: "https://i.pinimg.com/736x/67/c6/b2/67c6b2d1c64cb9f97b2285c18db36194.jpg",
+  },
+  {
+    Name: "Kakikori",
+    Nationality: "Japanese",
+    Type: "Other",
+    Price: "2.25",
+    IMG: "https://live.staticflickr.com/6081/6042608758_153fa82b0c_b.jpg",
+  },
+  {
+    Name: "Tapioca Pudding",
+    Type: "Other",
+    Price: "2.25",
+    IMG: "https://i0.wp.com/thejoyfilledkitchen.com/wp-content/uploads/2020/07/DSC_0010-1.jpg?resize=1024%2C1536&ssl=1",
+  },
+  {
+    Name: "Patbingsu",
+    Nationality: "Korean",
+    Type: "Other",
+    IMG: "https://th.bing.com/th/id/R.03cd6e4289650befec3515b5ef92da53?rik=qoQSjgeCOfiwdg&riu=http%3a%2f%2fcdn1.koreanbapsang.com%2fwp-content%2fuploads%2f2014%2f07%2fPatbingsu-recipe-3.jpg&ehk=DGm%2fhO%2bdauzIZd%2faUVsWv5HIdUpyCQs0MVkcZ1VAR%2bA%3d&risl=&pid=ImgRaw&r=0",
   },
 ];
 

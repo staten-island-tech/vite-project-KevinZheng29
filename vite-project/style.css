@@ -31,7 +31,19 @@ html, body, *{
   padding-right: 3rem;
 }
 
+.Child{
+  border: solid 3px black;
+  max-width: 35%;
+}
+
+.IMG{
+  max-width: 30%;
+}
+
 .MenuPage{
-  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
