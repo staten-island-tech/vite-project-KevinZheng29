@@ -29,17 +29,19 @@ const ShowMenu = {
   JPMENU: function () {
     menu
       .filter((menu) => menu.Nationality === "Japanese")
+      .filter((menu) => menu.Type === "Food")
       .forEach((menu) =>
         DOM.MenuPage.insertAdjacentHTML(
           "beforeend",
           `
-          <div class="MenuPage"></div>
-          <div class="Child">
-          <img class="IMG" src="${menu.IMG}"><img>
-          <h1 class="CardName">${menu.Name}</h1>
-          <h2 class="CardPrice">${menu.Price}</h2>
-        </div>
-        <div>`
+          <container class="Parent">
+              <div class="Child">
+                  <img class="IMG" src="${menu.IMG}"><img>
+                   <h1 class="CardName">${menu.Name}</h1>
+                   <h2 class="CardPrice">${menu.Price}</h2>
+              </div>
+          </container>
+          `
         )
       );
   },
