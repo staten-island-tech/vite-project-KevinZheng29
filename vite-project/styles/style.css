@@ -5,6 +5,7 @@ html, body, *{
   font-size: 62.5%;
   }
 
+
 .Heading{
   padding-top: 5rem;
   text-align: center;
@@ -26,10 +27,15 @@ html, body, *{
   text-align: center;
 }
 
-#JPBTN, #KRMenuBTN, #DrinksAndDessertsBTN{
-  padding-left: 3rem;
-  padding-right: 3rem;
+#JPBTN, #KRBTN, #DrinksAndDessertsBTN{
+  width: 30rem;
 }
+
+.ButtonPage{
+  text-align: center;
+  justify-content: space-around;
+}
+
 
 .MenuPage{
   display: flex;
@@ -37,29 +43,40 @@ html, body, *{
   justify-content: space-around;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding-top: 35px;
 }
 
 .Child{
   border: solid 3px black;
-  width: 500px;
-  height: 700px;
-  margin-top: 20px;
+  width: 50rem;
+  height: 70rem;
+  margin-top: 4rem;
 }
 
 .IMG{
   max-width: 100%;
   height: 70%;
   width: 100%;
-  padding-bottom: 3px;
-  background-color: black;
 }
 
 .CardName{
-  margin-top: 20px;
   font-size: 50px;
+  padding-top: 3px;
 }
 
 .CardPrice{
-  margin-top: 20px;
   font-size: 40px;
+}
+
+@media all and (max-width: 500px) {
+  .Child {
+    width: 25rem;
+    height: 35rem;
+  }
+}
+
+.Child:hover{
+  transform: scale(1.1);
+  transition: all 1.5s;
+  object-position: center;
 }

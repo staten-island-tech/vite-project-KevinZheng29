@@ -1,6 +1,6 @@
-import "./style.css";
-import { menu } from "./array";
-import { DOM } from "./DOM";
+import "../styles/style.css";
+import { menu } from "../js/array";
+import { DOM } from "../js/DOM";
 
 DOM.jpbtn.addEventListener("click", function () {
   DOM.MenuPage.innerHTML = "";
