@@ -1,21 +1,21 @@
 const menu = [
   {
     Name: "Bubble Tea",
-    Type: "Other",
+    Type: "Drink",
     Price: 6.25,
-    IMG: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.anediblemosaic.com%2Fhow-to-make-bubble-tea-easy-boba-tea-recipe%2F&psig=AOvVaw3Mfua4Jf53wqmx1I9GxCyl&ust=1670352415657000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCOD14NKR4_sCFQAAAAAdAAAAABAI",
+    IMG: "https://th.bing.com/th/id/R.da5ea128965b98686f950bf9ebccf724?rik=07SY34VxiDEH5Q&riu=http%3a%2f%2fassets.epicurious.com%2fphotos%2f5953ca064919e41593325d97%2fmaster%2fpass%2fbubble_tea_recipe_062817.jpg&ehk=QACesV3GIsd3UewyRG2C7XreYc%2bikwPGUvaa2r3opKk%3d&risl=&pid=ImgRaw&r=0",
+  },
+  {
+    Name: "Latte",
+    Type: "Drink",
+    Price: 5.25,
+    IMG: "https://baranbakery.com/wp-content/uploads/2020/11/chai-latte-9.jpg",
   },
   {
     Name: "Lemonade",
-    Type: "Other",
+    Type: "Drink",
     Price: 4.0,
-    IMG: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.errenskitchen.com%2Frefreshing-lemonade%2F&psig=AOvVaw0TD_IWTgfTMN5iGur_UP_9&ust=1670352761037000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKjw0PyS4_sCFQAAAAAdAAAAABAN",
-  },
-  {
-    Name: "Soda",
-    Type: "Other",
-    Price: 1.5,
-    IMG: "https://images.getbento.com/accounts/e982120732536d27efbb1ead5cdad7e7/media/images/37786IMG_4723.jpg?w=1200&fit=crop&auto=compress,format&h=600",
+    IMG: "https://ketopots.com/wp-content/uploads/2021/02/homemade-keto-lemonade-6.jpg",
   },
   {
     Name: "Takoyaki",
@@ -43,7 +43,7 @@ const menu = [
     Nationality: "Japanese",
     Type: "Food",
     Price: 10.25,
-    IMG: "https://www.196flavors.com/wp-content/uploads/2019/11/yakisoba-2-600x900.jpg",
+    IMG: "https://webapi.814356.com/image/athleterecipe/data/athleterecipe-v1/recipe/1164.jpg",
   },
   {
     Name: "Curry",
@@ -69,7 +69,7 @@ const menu = [
   {
     Name: "Dango",
     Nationality: "Japanese",
-    Type: "Other",
+    Type: "Dessert",
     Price: 4.5,
     IMG: "https://simplyhomecooked.com/wp-content/uploads/2021/02/dango-recipe-2.jpg",
   },
@@ -85,7 +85,7 @@ const menu = [
     Nationality: "Korean",
     Type: "Food",
     Price: 5.25,
-    IMG: "https://th.bing.com/th/id/R.c506da808055d1ed5e0ead9b314d34ab?rik=Fwa%2fjqtWa%2fb7nQ&riu=http%3a%2f%2fchefjulieyoon.com%2fwp-content%2fuploads%2f2016%2f05%2fDakGangJeong-62.jpg&ehk=G12OJQ4%2b2ZTYlcDt3RbMf8jrgMNUStiz8yNH4nhNhBU%3d&risl=&pid=ImgRaw&r=0",
+    IMG: "https://www.maangchi.com/wp-content/uploads/2015/07/dakgangjeong.jpg",
   },
   {
     Name: "Hweori Gamja",
@@ -146,7 +146,7 @@ const menu = [
   {
     Name: "Crepe",
     Nationality: "Japanese",
-    Type: "Other",
+    Type: "Dessert",
     Price: 2.75,
     IMG: "https://th.bing.com/th/id/R.8d5a890a89957ff8a4cc20f47694596c?rik=MMiim%2bdJ32ucSw&riu=http%3a%2f%2fwww.geishablog.com%2fwp-content%2fuploads%2f2013%2f10%2fjapanese-crepes.jpg&ehk=aCeqx6v9wmv3sLmgUHDO8DIRtEFZs5BvVqmlpdGGvz4%3d&risl=&pid=ImgRaw&r=0",
   },
@@ -160,20 +160,21 @@ const menu = [
   {
     Name: "Kakikori",
     Nationality: "Japanese",
-    Type: "Other",
-    Price: "2.25",
+    Type: "Dessert",
+    Price: 2.25,
     IMG: "https://live.staticflickr.com/6081/6042608758_153fa82b0c_b.jpg",
   },
   {
     Name: "Tapioca Pudding",
-    Type: "Other",
-    Price: "2.25",
+    Type: "Dessert",
+    Price: 2.25,
     IMG: "https://i0.wp.com/thejoyfilledkitchen.com/wp-content/uploads/2020/07/DSC_0010-1.jpg?resize=1024%2C1536&ssl=1",
   },
   {
     Name: "Patbingsu",
     Nationality: "Korean",
-    Type: "Other",
+    Type: "Dessert",
+    Price: 5.0,
     IMG: "https://th.bing.com/th/id/R.03cd6e4289650befec3515b5ef92da53?rik=qoQSjgeCOfiwdg&riu=http%3a%2f%2fcdn1.koreanbapsang.com%2fwp-content%2fuploads%2f2014%2f07%2fPatbingsu-recipe-3.jpg&ehk=DGm%2fhO%2bdauzIZd%2faUVsWv5HIdUpyCQs0MVkcZ1VAR%2bA%3d&risl=&pid=ImgRaw&r=0",
   },
 ];
