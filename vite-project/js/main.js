@@ -26,13 +26,11 @@ const ShowMenu = {
         DOM.MenuPage.insertAdjacentHTML(
           "beforeend",
           `
-          <container class="Parent">
               <div class="Child">
                   <img class="IMG" src="${menu.IMG}"><img>
                    <h1 class="CardName">${menu.Name}</h1>
                    <h2 class="CardPrice">$${menu.Price}</h2>
               </div>
-          </container>
           `
         )
       );
@@ -45,13 +43,13 @@ const ShowMenu = {
         DOM.MenuPage.insertAdjacentHTML(
           "beforeend",
           `
-          <container class="Parent">
+          
               <div class="Child">
                   <img class="IMG" src="${menu.IMG}"><img>
                    <h1 class="CardName">${menu.Name}</h1>
                    <h2 class="CardPrice">$${menu.Price}</h2>
               </div>
-          </container>
+          
           `
         )
       );
@@ -63,13 +61,13 @@ const ShowMenu = {
         DOM.MenuPage.insertAdjacentHTML(
           "beforeend",
           `
-          <container class="Parent">
+          
               <div class="Child">
                   <img class="IMG" src="${menu.IMG}"><img>
                    <h1 class="CardName">${menu.Name}</h1>
                    <h2 class="CardPrice">$${menu.Price}</h2>
               </div>
-          </container>
+          
           `
         )
       );
@@ -79,13 +77,13 @@ const ShowMenu = {
         DOM.MenuPage.insertAdjacentHTML(
           "beforeend",
           `
-          <container class="Parent">
+          
               <div class="Child">
                   <img class="IMG" src="${menu.IMG}"><img>
                    <h1 class="CardName">${menu.Name}</h1>
                    <h2 class="CardPrice">$${menu.Price}</h2>
               </div>
-          </container>
+          
           `
         )
       );

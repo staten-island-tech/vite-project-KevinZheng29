@@ -9,16 +9,15 @@ html, body, *{
 .Heading{
   padding-top: 5rem;
   text-align: center;
-  font-size: 5rem;
-  background-image: url(https://th.bing.com/th/id/R.f950f8c49a2be4b9002aa0b76e13dc42?rik=5I13qf6fx71cug&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fNP7w5kc.jpg&ehk=7flZMnQlQz4T3H5L1XKLAnsb3o%2fDOcMQ7m7Kc%2fBCrT0%3d&risl=&pid=ImgRaw&r=0);
-  background-size: cover;
-  padding-bottom: 5rem;
+  font-size: 10rem;
+  color: red;
+  padding-bottom: 20rem;
+  background-color: white;
 }
 
 .ButtonPage{
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-image: url(https://th.bing.com/th/id/R.f950f8c49a2be4b9002aa0b76e13dc42?rik=5I13qf6fx71cug&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fNP7w5kc.jpg&ehk=7flZMnQlQz4T3H5L1XKLAnsb3o%2fDOcMQ7m7Kc%2fBCrT0%3d&risl=&pid=ImgRaw&r=0);
   font-size: 4rem;
   display: flex;
   justify-content: space-around;
@@ -32,8 +31,14 @@ html, body, *{
 }
 
 .ButtonPage{
+  background-color: white;
   text-align: center;
   justify-content: space-around;
+}
+
+.menubody{
+  background-image: url(https://image.freepik.com/free-photo/wooden-table-background_23-2147962363.jpg);
+  background-size: contain;
 }
 
 
@@ -44,6 +49,7 @@ html, body, *{
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding-top: 35px;
+  
 }
 
 .Child{
@@ -51,6 +57,8 @@ html, body, *{
   width: 50rem;
   height: 70rem;
   margin-top: 4rem;
+  background-color: white;
+  margin-bottom: 10rem;
 }
 
 .IMG{
@@ -80,3 +88,4 @@ html, body, *{
   transition: all 1.5s;
   object-position: center;
 }
+
