@@ -1,0 +1,48 @@
+html, body, *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  }
+
+.HeadingPage{
+  background-color: white;
+  padding-bottom: 20rem;
+  background-image: url(https://images.cdn1.stockunlimited.net/preview1300/restaurant-menu-wallpaper_1807875.jpg);
+  background-size: cover;
+}
+
+.ParentHeading{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.Title{
+  
+  margin-top: 5rem;
+  font-size: 20rem;
+  color: red;
+ 
+}
+
+.ButtonMenu{
+  margin-left: 10rem;
+  max-height: 20rem;
+}
+
+
+#JPBTN, #KRBTN, #DrinksAndDessertsBTN{
+  margin-top: 10rem;
+  font-size: 20px;
+  width: 20rem;
+  max-height: 5rem;
+  margin-left: 5rem;
+  background-color: transparent;
+}
+
+
+
+
+
+

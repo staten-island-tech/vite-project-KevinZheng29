@@ -1,0 +1,19 @@
+html, body, *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    }
+
+@media all and (max-width: 500px) {
+    .Child {
+      width: 25rem;
+      height: 35rem;
+    }
+  }
+  
+  .Child:hover{
+    transform: scale(1.1);
+    transition: all 1.5s;
+    object-position: center;
+  }

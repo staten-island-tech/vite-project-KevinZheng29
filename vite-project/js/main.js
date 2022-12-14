@@ -1,4 +1,6 @@
-import "../styles/style.css";
+import "../styles/Heading.css";
+import "../styles/MenuPage.css";
+import "../styles/Other.css";
 import { menu } from "../js/array";
 import { DOM } from "../js/DOM";
 
