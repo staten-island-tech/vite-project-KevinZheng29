@@ -17,3 +17,8 @@ html, body, *{
     transition: all 1.5s;
     object-position: center;
   }
+
+.MenuBTN:hover{
+  transition: all 1.0s;
+  transform: translateY(1rem);
+}

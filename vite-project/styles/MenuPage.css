@@ -4,23 +4,16 @@ html, body, *{
     box-sizing: border-box;
     font-size: 62.5%;
     }
-
-    .MenuPage{
-        text-align: center;
-      }
       
-      .ButtonPage{
-        background-color: white;
-        text-align: center;
-        justify-content: space-around;
-      }
-      
-      .menubody{
     
-      }
-      
+#ThemeBTN{
+  font-size: 3rem;
+  text-align: left;
+  background-color: transparent;
+}    
       
       .MenuPage{
+        text-align: center;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
