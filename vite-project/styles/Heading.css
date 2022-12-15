@@ -15,15 +15,12 @@ html, body, *{
 .ParentHeading{
   display: flex;
   flex-direction: row;
-  
 }
 
 .Title{
-  
   margin-top: 5rem;
   font-size: 20rem;
   color: red;
- 
 }
 
 .ButtonMenu{
