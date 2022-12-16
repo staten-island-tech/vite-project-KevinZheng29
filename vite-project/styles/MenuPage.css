@@ -7,10 +7,20 @@ html, body, *{
       
     
 #ThemeBTN{
-  font-size: 3rem;
-  text-align: left;
-  background-color: transparent;
+  margin-top: 2rem;
+  font-size: 5rem;
 }    
+
+:root {
+  --white: white;
+  --black: black;
+  --red: red;
+  --light-blue: #8dd8e6
+}
+
+.MainBody{
+  background-color: var(--white);
+}
       
       .MenuPage{
         text-align: center;
@@ -24,11 +34,11 @@ html, body, *{
       }
       
       .Child{
-        border: solid 3px black;
+        border: solid 3px var(--black);
         width: 50rem;
         height: 70rem;
         margin-top: 4rem;
-        background-color: white;
+        background-color: var(--white);
         margin-bottom: 10rem;
       }
       
