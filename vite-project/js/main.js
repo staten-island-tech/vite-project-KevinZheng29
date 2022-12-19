@@ -32,6 +32,11 @@ DOM.othersbtn.addEventListener("click", function () {
   ShowMenu.OTHERMENU();
 });
 
+DOM.allfoodbtn.addEventListener("click", function () {
+  DOM.MenuPage.innerHTML = "";
+  ALLFOOD();
+});
+
 const ShowMenu = {
   JPMENU: function () {
     menu
@@ -104,3 +109,40 @@ const ShowMenu = {
       );
   },
 };
+
+function ALLFOOD() {
+  menu.forEach((menu) =>
+    DOM.MenuPage.insertAdjacentHTML(
+      "beforeend",
+      `
+          
+              <div class="Child">
+                  <img class="IMG" src="${menu.IMG}"><img>
+                   <h1 class="CardName">${menu.Name}</h1>
+                   <h2 class="CardPrice">$${menu.Price}</h2>
+              </div>
+          
+          `
+    )
+  );
+}
+
+DOM.lightbtn.addEventListener("click", function () {
+  if (DOM.MenuPage.classList.contains("dark")) {
+    DOM.MenuPage.classList.add("light");
+    DOM.MenuPage.classList.remove("dark");
+  } else {
+    DOM.MenuPage.classList.add("light");
+    DOM.MenuPage.classList.remove("dark");
+  }
+});
+
+DOM.darkbtn.addEventListener("click", function () {
+  if (DOM.MenuPage.classList.contains("light")) {
+    DOM.MenuPage.classList.add("dark");
+    DOM.MenuPage.classList.remove("light");
+  } else {
+    DOM.MenuPage.classList.add("dark");
+    DOM.MenuPage.classList.remove("light");
+  }
+});

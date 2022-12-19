@@ -14,7 +14,7 @@ html, body, *{
   
   .Child:hover{
     transform: scale(1.1);
-    transition: all 1.5s;
+    transition: all 0.75s;
     object-position: center;
   }
 

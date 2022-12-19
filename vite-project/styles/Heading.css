@@ -21,9 +21,7 @@ html, body, *{
 }
 
 .ButtonMenu{
-  display: flex;
-  flex-direction: row;
-  
+  text-align: center;
 }
 
 .MenuBTN{
@@ -32,7 +30,7 @@ html, body, *{
   font-size: 40px;
   max-height: 50px;
   width: 40rem;
-  background-color: transparent;
+  
 }
 
 
