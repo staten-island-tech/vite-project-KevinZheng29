@@ -19,17 +19,22 @@ menu.forEach((menu) =>
 
 DOM.jpbtn.addEventListener("click", function () {
   DOM.MenuPage.innerHTML = "";
-  ShowMenu.JPMENU();
+  menu.map(ShowMenu.JPMENU);
 });
 
 DOM.krbtn.addEventListener("click", function () {
   DOM.MenuPage.innerHTML = "";
-  ShowMenu.KRMENU();
+  menu.map(ShowMenu.KRMENU);
 });
 
 DOM.othersbtn.addEventListener("click", function () {
   DOM.MenuPage.innerHTML = "";
-  ShowMenu.OTHERMENU();
+  menu.map(ShowMenu.OTHERMENU);
+});
+
+DOM.allfoodbtn.addEventListener("click", function () {
+  DOM.MenuPage.innerHTML = "";
+  menu.map(ShowMenu.ALLFOOD);
 });
 
 DOM.allfoodbtn.addEventListener("click", function () {
@@ -107,6 +112,22 @@ const ShowMenu = {
           `
         )
       );
+  },
+  ALLFOOD: function () {
+    menu.forEach((menu) =>
+      DOM.MenuPage.insertAdjacentHTML(
+        "beforeend",
+        `
+          
+              <div class="Child">
+                  <img class="IMG" src="${menu.IMG}"><img>
+                   <h1 class="CardName">${menu.Name}</h1>
+                   <h2 class="CardPrice">$${menu.Price}</h2>
+              </div>
+          
+          `
+      )
+    );
   },
 };
 
