@@ -7,16 +7,22 @@ html, body, *{
       
      .ThemeButtonPage{
       text-align: center;
-      background-color: azure;
      }
 
      .ThemeBTN{
       width: 30rem;
       font-size: 5rem;
       margin: 0 15rem 0 15rem;
-      background-color: transparent;
+      margin-top: 10rem;
      }
 
+     #LightBTN{
+      background-color: var(--light-blue);
+     }
+
+     #DarkBTN{
+      background-color: var(--dark-blue);
+     }
       
       .MenuPage{
         text-align: center;

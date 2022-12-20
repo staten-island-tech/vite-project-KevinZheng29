@@ -25,12 +25,11 @@ html, body, *{
 }
 
 .MenuBTN{
-  margin-top: 10rem;
   margin-right: 30px;
   font-size: 40px;
   max-height: 50px;
   width: 40rem;
-  
+  background-color: azure;
 }
 
 
