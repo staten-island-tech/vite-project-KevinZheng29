@@ -177,13 +177,6 @@ const menu = [
     Price: 5.0,
     IMG: "https://th.bing.com/th/id/R.03cd6e4289650befec3515b5ef92da53?rik=qoQSjgeCOfiwdg&riu=http%3a%2f%2fcdn1.koreanbapsang.com%2fwp-content%2fuploads%2f2014%2f07%2fPatbingsu-recipe-3.jpg&ehk=DGm%2fhO%2bdauzIZd%2faUVsWv5HIdUpyCQs0MVkcZ1VAR%2bA%3d&risl=&pid=ImgRaw&r=0",
   },
-  {
-    Name: "Dorayaki",
-    Nationality: "Japanese",
-    Type: "Dessert",
-    Price: 2.0,
-    IMG: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.justonecookbook.com%2Fdorayaki-japanese-red-bean-pancake%2F&psig=AOvVaw2FVhL4dRIbkycv9xeGWYpC&ust=1671734281118000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCIjCyb6ti_wCFQAAAAAdAAAAABAD",
-  },
 ];
 
 export { menu };
