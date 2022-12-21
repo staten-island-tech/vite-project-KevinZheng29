@@ -182,7 +182,7 @@ const menu = [
     Nationality: "Japanese",
     Type: "Dessert",
     Price: 2.0,
-    IMG: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thespruceeats.com%2Fjapanese-dorayaki-recipe-2031077&psig=AOvVaw2YAKDE2id6E0j6FYV23WIP&ust=1671734159003000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLjqkYWti_wCFQAAAAAdAAAAABAD",
+    IMG: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.justonecookbook.com%2Fdorayaki-japanese-red-bean-pancake%2F&psig=AOvVaw2FVhL4dRIbkycv9xeGWYpC&ust=1671734281118000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCIjCyb6ti_wCFQAAAAAdAAAAABAD",
   },
 ];
 
