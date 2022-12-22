@@ -12,7 +12,7 @@ html, body, *{
     object-position: center;
   }
 
-.MenuBTN:hover{
+.ThemeBTN:hover{
   transition: all 1.0s;
   transform: translateY(1rem);
 }
